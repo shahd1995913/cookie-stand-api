@@ -59,7 +59,7 @@ INSTALLED_APPS = [
     "corsheaders",
     # local
     "accounts",
-    "things",
+    "cookie_stands",
 ]
 
 MIDDLEWARE = [
@@ -108,6 +108,8 @@ DATABASES = {
         "PORT": env.int("DATABASE_PORT"),
     }
 }
+
+
 
 
 # Password validation
